@@ -6,7 +6,7 @@ import {
   faBackwardStep,
   faForwardStep,
 } from "@fortawesome/free-solid-svg-icons";
-export const AudioControl = ({
+export const AudioControlador = ({
   data,
   currentSongIndex,
   playNext,

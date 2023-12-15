@@ -2,9 +2,9 @@ import React from "react";
 import { useFetch } from "../../utils/useFetch";
 
 import ListGroup from "react-bootstrap/ListGroup";
-import { AudioControl, Footer } from "./AudioControl";
+import { AudioControlador} from "./audioControlador";
 
-export const playlist = () => {
+export const Playlist = () => {
   const URL = "https://playground.4geeks.com/apis/fake/sound/";
 
   const [data] = useFetch(`${URL}/songs`);
@@ -60,7 +60,7 @@ export const playlist = () => {
           </ul>
         );
       })}
-      <AudioControl
+      <AudioControlador
         data={data}
         playNext={playNext}
         playPrevious={playPrevious}

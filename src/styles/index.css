@@ -10,12 +10,12 @@
 
 */
 :root {
-  background-color: black;
+  background-color: rgb(192, 27, 118);
   padding-top: 2rem;
 }
 .custom {
-  background-color: black;
-  color: white;
+  background-color: rgb(7, 7, 7);
+  color: rgb(241, 4, 4);
 }
 
 .list {
@@ -32,11 +32,11 @@
 }
 
 .selected {
-  background-color: rgb(96, 96, 96);
+  background-color: rgb(3, 180, 250);
 }
 
 .list-item:hover {
-  background-color: rgb(119, 118, 118);
+  background-color: rgb(222, 247, 2);
   cursor: pointer;
 }
 
@@ -46,7 +46,7 @@ audio {
 .audio-control {
   border-radius: 2px;
   padding: 1rem 0rem;
-  background-color: grey;
+  background-color: rgb(129, 12, 12);
   position: fixed;
   bottom: 0;
   display: flex;
